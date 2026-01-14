@@ -1,7 +1,6 @@
 streamlit
 pandas
 scikit-learn
-plotly
-matplotlib
-seaborn
-statsmodels
+google-generativeai>=0.8.3
+Pillow
+numpy
