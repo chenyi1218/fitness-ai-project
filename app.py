@@ -20,7 +20,8 @@ if 'ai_plan' not in st.session_state: st.session_state.ai_plan = ""
 # 2. 側邊欄：API 設定
 st.sidebar.title("🔐 系統安全與設定")
 api_key = st.sidebar.text_input("輸入 Gemini API Key", type="password")
-st.sidebar.info("💡 此系統整合了機器學習(Scikit-learn)與生成式AI(Gemini)，符合期末專題要求。")
+
+# (已移除原本在這裡的文字說明)
 
 # --- 動態尋找可用模型 (避免 404 錯誤) ---
 def get_best_model(api_key):
